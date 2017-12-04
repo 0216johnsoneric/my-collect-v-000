@@ -1,5 +1,5 @@
 def my_collect(collection)
-  my_collect.each do |lang|
+  collection.each do |lang|
   lang.upcase
   end
   collection
